@@ -142,4 +142,11 @@ return [
 
     ],
 
+
+    'dynamic_connections' => [
+        'param'  => 'db-con',
+        'prefix' => 'phinx_dev',
+        'name'   => 'mysql2'
+    ]
+
 ];
